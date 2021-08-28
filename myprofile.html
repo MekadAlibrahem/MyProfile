@@ -31,8 +31,7 @@
     </style>
     <!-- icon linke -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- <link href="fonts/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fonts/css/brands.css"> -->
+    
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/heroes.css" rel="stylesheet">
@@ -146,29 +145,84 @@
   
     
 </div>
-<!-- ----------------------------------------- -->
-<div class="b-example-divider"></div>
-
-
-
-
-<!-- -------------------------------------- -->
-
 
 <div class="b-example-divider"></div>
+<section id="components">
+    <h2  id="myproj" class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">my Project</h2>
 
-<div  id="myproj" class="container col-xxl-8 px-4 py-5">
-  
-      <h1 class="display-5 fw-bold lh-1 mb-3">My projects</h1>
-      
-        <h3> Election automation Web Site  </h3>
-         It was my graduation  project  at the Institute of Computer Technologies. It is about the automation of electoral processes in Syria. It allows the site administrator to manage electoral processes, electoral constituencies, user accounts and candidates, how much he can manage residential areas and user data, and allows candidates to publish their electoral programs easily, and citizens can participate in the processes  The available electoral process, displaying the candidates’ data, or displaying the statistics and results of the electoral processes. <br>
-          The identity of the user is verified by oa faceprint. This is a brief explanation of my project. <br>
-           Obtained an honors degree with an  average of 90 
-     
-      
-   
-</div>
+    <article class="my-3" id="accordion">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h3> Election automation website </h3>
+        <p>
+            It was my graduation project at the Computer Technical Institute <br>
+            This site manages the electoral processes and provides all related services <br>
+            The services provided by the site
+        </p>
+      </div>
+
+      <div>
+        <div class="bd-example">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Admin
+              </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The director is allowed to manage the electoral processes, their dates, and the electoral districts affiliated to them <br>
+                Banning or activating user accounts
+                Add candidates to an electoral process
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Employees 
+              </button>
+            </h4>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Employees can add or modify user data
+                And the administration of provinces, cities and residential areas
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                candidates
+              </button>
+            </h4>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The candidate can manage his personal file and manage his electoral programs
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h4 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Citizens or voters
+              </button>
+            </h4>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               Citizens or voters are allowed to participate in the electoral processes at their specified times, and each voter in his own electoral district according to the type of electoral process<br>
+                Candidates can be viewed and information about them or their electoral programs can be displayed<br>
+                And display the results of the elections and statistics for each electoral process<br>
+                The identity of users is also verified by a faceprint
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </article>
+    </section>
 <div class="b-example-divider"></div>
 <footer class="pt-3 mt-4 text-muted border-top">
         <div id="cont" class="bg-dark text-secondary px-4 py-5 text-center">
